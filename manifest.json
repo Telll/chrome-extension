@@ -4,7 +4,10 @@
   "name": "telll.me",
   "description": "The telll.me extension for Chrome by Monsenhor",
   "version": "0.17.0",
-  "icons": { "128": "icon.png" },
+  "icons": { "16": "icon16.png",
+             "48": "icon48.png",
+            "128": "icon128.png"
+  },
   "options_page": "options.html",
   "browser_action": {
     "default_icon": "icon.png",
@@ -19,15 +22,9 @@
   ],
   "permissions": [
     "activeTab",
-    "https://ajax.googleapis.com/",
-    "http://52.3.72.192:3000/",
-    "http://webapp.telll.me/",
     "http://www.youtube.com/",
-    "https://www.youtube.com/",
-    "https://www.facebook.com/",
-    "http://52.20.194.143/",
-    "https://localhost/"
-  ],
+    "https://www.youtube.com/"
+ ],
 
  "platforms": [
     {
