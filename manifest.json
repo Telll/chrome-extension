@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+
+  "name": "telll.me",
+  "description": "The telll.me extension for Chrome by Monsenhor",
+  "version": "0.17.0",
+  "icons": { "128": "icon.png" },
+  "options_page": "options.html",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "css": ["youtube.css"],
+      "js": [ "jquery.min.js", "telllSDK.min.js", "youtube_app.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/",
+    "http://52.3.72.192:3000/",
+    "http://webapp.telll.me/",
+    "http://www.youtube.com/",
+    "https://www.youtube.com/",
+    "https://www.facebook.com/",
+    "http://52.20.194.143/",
+    "https://localhost/"
+  ],
+
+ "platforms": [
+    {
+      "sub_package_path": "./"
+    }
+  ]
+
+}
