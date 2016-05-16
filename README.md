@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/Telll/chrome-extension.png?label=ready&title=Ready)](https://waffle.io/Telll/chrome-extension)
 # chrome-extension
 Chrome extension implementing telll
 
